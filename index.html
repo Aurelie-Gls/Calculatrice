@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculatrice</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="box">
+      <div id="result">
+        <input class="affichage" type="text" id="display" value="0" disabled />
+	  </div>
+	  
+		</br>
+
+	  <table id="btn">
+		<tr>
+			  <td colspan="2"><button type="button" id="clear" class="ac" value="AC">AC</button></td>
+			  <td><button type="button" id="divide" class="ope" value="/">/</button></td>
+			  <td><button type="button" id="multiply" class="ope" value="*">x</button></td>
+		</tr>
+		<tr>
+			  <td><button type="button" id="seven" class="nb" value="7">7</button></td>
+			  <td><button type="button" id="eight" class="nb" value="8">8</button></td>
+			  <td><button type="button" id="nine" class="nb" value="9">9</button></td>
+			  <td><button type="button" id="subtract" class="ope" value="-">-</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" id="four" class="nb" value="4">4</button></td>
+			<td><button type="button" id="five" class="nb" value="5">5</button></td>
+			<td><button type="button" id="six"  class="nb" value="6">6</button></td>
+			<td><button type="button" id="add" class="ope" value="+">+</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" id="one" class="nb" value="1">1</button></td>
+			<td><button type="button" id="two" class="nb" value="2">2</button></td>
+			<td><button type="button" id="three" class="nb"value="3">3</button></td>
+			<td rowspan="2"><button type="button" id="equals" class="egal" value="=">=</button></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button type="button" id="zero" class="nb" value="0">0</button></td>
+			<td><button type="button" id="decimal" class="nb" value=".">.</button></td>
+		</tr>
+	  </table>
+     
+    </div>
+  </body>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</html>

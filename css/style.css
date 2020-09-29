@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ********** Calculatrice ********** */
+
+#box {
+  margin-top: 100px;
+  padding: 2px;
+  background: black;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-family: digital;
+}
+
+/* ********** Boutons ********** */
+
+#zero {
+  height: 90px;
+  width: 205px;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#decimal {
+  height: 90px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+}
+
+#zero:hover,
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#decimal:hover {
+  border: 1px solid orange;
+  color: orange;
+  font-size: 50px;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide {
+  height: 90px;
+  width: 100px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 35px;
+}
+
+#clear {
+  height: 90px;
+  width: 205px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 35px;
+}
+#equals {
+  height: 185px;
+  width: 100px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 35px;
+}
+
+#add:hover,
+#subtract:hover,
+#multiply:hover,
+#divide:hover,
+#clear:hover,
+#equals:hover {
+  border: 1px solid rgb(219, 219, 40);
+  color: rgb(219, 219, 40);
+  font-size: 50px;
+}
+
+/* ********** Affichage ********** */
+
+#display {
+  height: 80px;
+  width: 98%;
+  font-size: 35px;
+}
